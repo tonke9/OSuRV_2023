@@ -1,0 +1,27 @@
+
+- Code
+	https://seeeddoc.github.io/CAN-BUS_Shield/
+		- Code
+			https://github.com/Seeed-Studio/Seeed_Arduino_CAN
+				- send
+				- receive_check
+
+
+
+- Some sch
+	https://www.sparkfun.com/datasheets/DevTools/Arduino/canbus_shield-v12.pdf
+	- Datasheets
+		https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf
+		https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/20001667G.pdf
+		https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf
+	https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/SparkFun_CAN-Bus_Shield_v13a.pdf
+
+
+- Problems
+	https://forum.arduino.cc/t/sunflower-can-shield-v3-don-t-start-with-arduino-mega/1102953
+
+
+
+
+https://wiki.seeedstudio.com/CAN-BUS_Shield_V2.0/
+https://store.arduino.cc/products/can-bus-shield-v2

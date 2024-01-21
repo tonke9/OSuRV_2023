@@ -2,13 +2,13 @@
 
 Library used: mcp2515_can.h from CAN_BUS_Shield by Seeed Studio and SPI.h from SD by Arduino <br/><br/>
 
-###Connection between Arduino and OBD Mary, using ELM327<br/><br/> 
+### Connection between Arduino and OBD Mary, using ELM327<br/><br/> 
 
 *Application used for testing : Obd Mary<br/>
 *Profile in application: OBD2 Standard<br/>
 *Parameters supported: CoolantTemp, rpm, vspeed, IATSensor, MAFSensor, AmbientAirTemp, CAT1Temp, CAT2Temp, CAT3Temp, CAT4Temp, VIN number<br/><br/>
 
-###Connection between two Arduino Boards<br/><br/>
+### Connection between two Arduino Boards<br/><br/>
 
 
 *Basic examples for communication: sender.ino and receiver.ino<br/>

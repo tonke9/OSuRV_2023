@@ -33,7 +33,7 @@ START_INIT:
 void loop()
 {
     unsigned char rndCoolantTemp=random(1,200);
-    unsigned char rndRPM=random(1000,1500);
+    unsigned char rndRPM=random(10,100);
     unsigned char rndSpeed=random(0,255);
     unsigned char rndIAT=random(0,255);
     unsigned char rndMAF=random(0,255);

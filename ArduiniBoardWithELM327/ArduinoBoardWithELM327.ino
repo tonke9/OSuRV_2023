@@ -2,7 +2,7 @@
 #include "mcp2515_can.h"
 mcp2515_can CAN(10);                                    // Set CS to pin 10
 
-int32_t canId = 0x000;
+int32_t canId = 0x7E8;
 
 unsigned char len = 0;
 unsigned char buf[8];
@@ -32,15 +32,15 @@ START_INIT:
 
 void loop()
 {
-    char rndCoolantTemp=random(1,200);
-    char rndRPM=random(1000,1500);
-    char rndSpeed=random(0,255);
-    char rndIAT=random(0,255);
-    char rndMAF=random(0,255);
+    unsigned char rndCoolantTemp=random(1,200);
+    unsigned char rndRPM=random(1000,1500);
+    unsigned char rndSpeed=random(0,255);
+    unsigned char rndIAT=random(0,255);
+    unsigned char rndMAF=random(0,255);
     
-    char rndAmbientAirTemp=random(0,200);
-    char rndCAT1Temp=random(1,55);
-    char vehicle_Vin[17] = "1WK58FB1111111111";
+    unsigned char rndAmbientAirTemp=random(0,200);
+    unsigned char rndCAT1Temp=random(1,55);
+    unsigned char vehicle_Vin[17] = "1WK58FB111111111";
     //GENERAL ROUTINE
     unsigned char SupportedPID[8] =       {1,2,3,4,5,7,8,9};
     unsigned char MilCleared[7] =         {4, 65, 63, 34, 224, 185, 147}; 

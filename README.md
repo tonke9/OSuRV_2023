@@ -6,7 +6,7 @@
 ### Connection between Arduino and OBD Mary, using ELM327<br/><br/> 
 
 ##### Application used for testing:
- Obd Mary<br/><br/>
+ Obd Arduino<br/><br/>
 ##### Profile in application:
  OBD2 Standard<br/><br/>
 ##### Parameters supported:
